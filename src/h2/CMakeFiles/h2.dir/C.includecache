@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/godka/jlc/openlitespeed/src/lshpack/huff-tables.h
+
+/home/godka/jlc/openlitespeed/src/lshpack/lshpack.c
+assert.h
+-
+stdint.h
+-
+stdlib.h
+-
+string.h
+-
+sys/queue.h
+-
+lshpack.h
+/home/godka/jlc/openlitespeed/src/lshpack/lshpack.h
+lshpack-test.h
+/home/godka/jlc/openlitespeed/src/lshpack/lshpack-test.h
+huff-tables.h
+/home/godka/jlc/openlitespeed/src/lshpack/huff-tables.h
+
+/home/godka/jlc/openlitespeed/src/lshpack/lshpack.h
+limits.h
+-
+stdint.h
+-
+lsxpack_header.h
+-
+sys/queue.h
+-
+
+src/liblsquic/ls-qpack/lsxpack_header.h
+assert.h
+-
+stdint.h
+-
+string.h
+-
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcache.a  CMakeFiles/cache.dir/cachemanager.cpp.o CMakeFiles/cache.dir/shmcachemanager.cpp.o CMakeFiles/cache.dir/cacheentry.cpp.o CMakeFiles/cache.dir/cachehash.cpp.o CMakeFiles/cache.dir/cachestore.cpp.o CMakeFiles/cache.dir/ceheader.cpp.o CMakeFiles/cache.dir/dirhashcacheentry.cpp.o CMakeFiles/cache.dir/dirhashcachestore.cpp.o CMakeFiles/cache.dir/cacheconfig.cpp.o CMakeFiles/cache.dir/cachectrl.cpp.o CMakeFiles/cache.dir/cache.cpp.o
+/usr/bin/ranlib libcache.a

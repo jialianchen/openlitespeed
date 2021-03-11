@@ -1,0 +1,2 @@
+/usr/bin/ar qc libjk.a  CMakeFiles/jk.dir/jkajp13.cpp.o CMakeFiles/jk.dir/jworker.cpp.o CMakeFiles/jk.dir/jworkerconfig.cpp.o CMakeFiles/jk.dir/jconn.cpp.o
+/usr/bin/ranlib libjk.a

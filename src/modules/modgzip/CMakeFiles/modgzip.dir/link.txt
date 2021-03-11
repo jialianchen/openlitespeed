@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmodgzip.a  CMakeFiles/modgzip.dir/modgzip.cpp.o
+/usr/bin/ranlib libmodgzip.a

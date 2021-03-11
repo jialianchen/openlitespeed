@@ -1,0 +1,2 @@
+/usr/bin/ar qc libadns.a  CMakeFiles/adns.dir/adns.cpp.o
+/usr/bin/ranlib libadns.a

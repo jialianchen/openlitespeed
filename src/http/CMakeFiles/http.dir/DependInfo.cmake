@@ -1,0 +1,118 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/godka/jlc/openlitespeed/src/http/accesscache.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/accesscache.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/accesslog.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/accesslog.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/authuser.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/authuser.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/awstats.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/awstats.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/cacheelement.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/cacheelement.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/chunkinputstream.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/chunkinputstream.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/chunkoutputstream.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/chunkoutputstream.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/clientcache.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/clientcache.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/clientinfo.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/clientinfo.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/connlimitctrl.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/connlimitctrl.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/contextlist.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/contextlist.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/contextnode.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/contextnode.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/contexttree.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/contexttree.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/denieddir.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/denieddir.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/eventdispatcher.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/eventdispatcher.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/expiresctrl.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/expiresctrl.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/handlerfactory.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/handlerfactory.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/handlertype.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/handlertype.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/hiochainstream.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/hiochainstream.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/hiohandlerfactory.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/hiohandlerfactory.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/hiostream.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/hiostream.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/hotlinkctrl.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/hotlinkctrl.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/htauth.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/htauth.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/htpasswd.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/htpasswd.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpaiosendfile.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpaiosendfile.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpcache.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpcache.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpcgitool.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpcgitool.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpcontext.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpcontext.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpextconnector.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpextconnector.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httphandler.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httphandler.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpheader.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpheader.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httplistener.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httplistener.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httplistenerlist.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httplistenerlist.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httplog.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httplog.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httplogsource.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httplogsource.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpmethod.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpmethod.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpmime.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpmime.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httprange.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httprange.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpreq.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpreq.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpresourcemanager.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpresourcemanager.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpresp.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpresp.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httprespheaders.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httprespheaders.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpserverconfig.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpserverconfig.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpserverversion.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpserverversion.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpsession.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpsession.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpsignals.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpsignals.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpstats.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpstats.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpstatuscode.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpstatuscode.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpstatusline.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpstatusline.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpver.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpver.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpvhost.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpvhost.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/httpvhostlist.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/httpvhostlist.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/iptogeo2.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/iptogeo2.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/iptoloc.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/iptoloc.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/l4handler.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/l4handler.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/moduserdir.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/moduserdir.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/moov.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/moov.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/ntwkiolink.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/ntwkiolink.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/phpconfig.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/phpconfig.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/pipeappender.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/pipeappender.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/recaptcha.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/recaptcha.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/reqhandler.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/reqhandler.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/reqparser.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/reqparser.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/reqstats.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/reqstats.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/rewriteengine.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/rewriteengine.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/rewritemap.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/rewritemap.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/rewriterule.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/rewriterule.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/rewriterulelist.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/rewriterulelist.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/sendfileinfo.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/sendfileinfo.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/serverprocessconfig.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/serverprocessconfig.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/smartsettings.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/smartsettings.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/staticfilecache.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/staticfilecache.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/staticfilecachedata.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/staticfilecachedata.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/staticfilehandler.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/staticfilehandler.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/statusurlmap.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/statusurlmap.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/stderrlogger.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/stderrlogger.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/subrequest.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/subrequest.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/throttlecontrol.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/throttlecontrol.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/urimatch.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/urimatch.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/userdir.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/userdir.cpp.o"
+  "/home/godka/jlc/openlitespeed/src/http/vhostmap.cpp" "/home/godka/jlc/openlitespeed/src/http/CMakeFiles/http.dir/vhostmap.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "ENABLE_IPTOGEO2"
+  "H3_ALPN=\"\\x05h3-29\\x05h3-31\""
+  "OPENSSL_NO_CXX"
+  "USE_BROTLI"
+  "USE_IP2LOCATION"
+  "USE_UDNS"
+  "_GLIBCXX_USE_CXX11_ABI=0"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "src/http"
+  "../thirdparty/include"
+  "src/liblsquic/ls-qpack"
+  "src/lshpack"
+  "include"
+  "openssl/include"
+  "src"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

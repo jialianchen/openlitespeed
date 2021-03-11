@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfcgi.a  CMakeFiles/fcgi.dir/fcgienv.cpp.o CMakeFiles/fcgi.dir/fcgiappconfig.cpp.o CMakeFiles/fcgi.dir/fcgiapp.cpp.o CMakeFiles/fcgi.dir/fcginamevaluepair.cpp.o CMakeFiles/fcgi.dir/fcgiconnection.cpp.o CMakeFiles/fcgi.dir/fcgirecord.cpp.o
+/usr/bin/ranlib libfcgi.a

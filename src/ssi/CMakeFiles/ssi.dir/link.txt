@@ -1,0 +1,2 @@
+/usr/bin/ar qc libssi.a  CMakeFiles/ssi.dir/ssiengine.cpp.o CMakeFiles/ssi.dir/ssiconfig.cpp.o CMakeFiles/ssi.dir/ssiruntime.cpp.o CMakeFiles/ssi.dir/ssiscript.cpp.o CMakeFiles/ssi.dir/__/http/requestvars.cpp.o
+/usr/bin/ranlib libssi.a

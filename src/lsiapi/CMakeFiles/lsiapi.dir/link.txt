@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblsiapi.a  CMakeFiles/lsiapi.dir/ediohandler.cpp.o CMakeFiles/lsiapi.dir/envmanager.cpp.o CMakeFiles/lsiapi.dir/lsimoduledata.cpp.o CMakeFiles/lsiapi.dir/lsiapihooks.cpp.o CMakeFiles/lsiapi.dir/modulehandler.cpp.o CMakeFiles/lsiapi.dir/lsiapi.cpp.o CMakeFiles/lsiapi.dir/lsiapi_const.cpp.o CMakeFiles/lsiapi.dir/lsiapilib.cpp.o CMakeFiles/lsiapi.dir/lsiapigd.cpp.o CMakeFiles/lsiapi.dir/modulemanager.cpp.o CMakeFiles/lsiapi.dir/moduletimer.cpp.o
+/usr/bin/ranlib liblsiapi.a

@@ -117,9 +117,9 @@ SET(unittest_STAT_SRCS
    ../test/shm/shmbaselrutest.cpp
    ../test/shm/shmxtest.cpp
 )
-
+ADD_DEFINITIONS(-lidn -lrt -lcrypto -lssl)
 add_executable(openlitespeed ${openlitespeed_SRCS}
-    ${unittest_STAT_SRCS}
+    
 )
 
 add_executable(ls_shmstat
@@ -155,6 +155,8 @@ SET( litespeedlib
     ${IP2LOC_ADD_LIB} ${BROTLI_ADD_LIB} udns
     -nodefaultlibs pthread rt stdc++
     ${CMAKE_DL_LIBS} crypt bcrypt m gcc_eh c c_nonshared gcc 
+   # /usr/local/lib/libtensorflow.so
+#/usr/local/lib//libtensorflow_framework.so
 )
 
 target_link_libraries(openlitespeed ${litespeedlib} )
@@ -162,7 +164,10 @@ target_link_libraries(openlitespeed ${litespeedlib} )
 target_link_libraries(ls_shmstat lsshm log4cxx edio util lsr pthread rt )
 
 target_link_libraries(ls_shmhashstat lsshm log4cxx edio util lsr pthread rt )
-
+#TARGET_LINK_LIBRARIES(openlitespeed
+#/usr/local/lib/libtensorflow.so
+#/usr/local/lib//libtensorflow_framework.so
+#)
 # target_link_libraries(ctbench ${litespeedlib} )
 
 # target_link_libraries(shmtest ${litespeedlib} )

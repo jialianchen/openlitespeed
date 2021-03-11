@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblsapi.a  CMakeFiles/lsapi.dir/lsapiworker.cpp.o CMakeFiles/lsapi.dir/lsapireq.cpp.o CMakeFiles/lsapi.dir/lsapiconn.cpp.o CMakeFiles/lsapi.dir/lsapiconfig.cpp.o
+/usr/bin/ranlib liblsapi.a

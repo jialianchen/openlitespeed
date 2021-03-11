@@ -504,12 +504,12 @@ static struct lsquic_stream_if s_quic_if =
 };
 
 
-struct ssl_ctx_st * QuicEngine::getSslCtxCb(void *peer_ctx)
+struct ssl_ctx_st * QuicEngine::getSslCtxCb(void *peer_ctx,
+                                                const struct sockaddr *local)
 {
     UdpListener *pUdpListener = (UdpListener *) peer_ctx;
     return pUdpListener->getSslContext();
 }
-
 
 struct ssl_ctx_st * QuicEngine::sniCb(void *pCtx, const sockaddr *pLocal,
                                       const char *sni)

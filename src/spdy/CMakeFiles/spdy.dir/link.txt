@@ -1,0 +1,2 @@
+/usr/bin/ar qc libspdy.a  CMakeFiles/spdy.dir/spdyprotocol.cpp.o CMakeFiles/spdy.dir/spdyconnection.cpp.o CMakeFiles/spdy.dir/spdystream.cpp.o CMakeFiles/spdy.dir/spdyzlibfilter.cpp.o CMakeFiles/spdy.dir/spdystreampool.cpp.o CMakeFiles/spdy.dir/spdydebug.cpp.o
+/usr/bin/ranlib libspdy.a

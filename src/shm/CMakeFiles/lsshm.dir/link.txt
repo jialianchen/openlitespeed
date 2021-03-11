@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblsshm.a  CMakeFiles/lsshm.dir/addrmap.cpp.o CMakeFiles/lsshm.dir/lsshm.cpp.o CMakeFiles/lsshm.dir/lsshmhash.cpp.o CMakeFiles/lsshm.dir/lsshmlock.cpp.o CMakeFiles/lsshm.dir/lsshmpool.cpp.o CMakeFiles/lsshm.dir/lsshmtidmgr.cpp.o CMakeFiles/lsshm.dir/lsshmhashobserver.cpp.o
+/usr/bin/ranlib liblsshm.a

@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x   -Wall -Wextra -Wno-unused-parameter      -rdynamic CMakeFiles/ls_shmstat.dir/shm/ls_shmstat.cpp.o  -o ls_shmstat   -L/home/godka/jlc/openlitespeed/../thirdparty/lib  -Wl,-rpath,/home/godka/jlc/openlitespeed/../thirdparty/lib shm/liblsshm.a log4cxx/liblog4cxx.a edio/libedio.a util/libutil.a lsr/liblsr.a -lpthread -lrt 

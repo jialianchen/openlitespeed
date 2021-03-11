@@ -1,0 +1,2 @@
+/usr/bin/ar qc libextensions.a  CMakeFiles/extensions.dir/loadbalancer.cpp.o CMakeFiles/extensions.dir/localworkerconfig.cpp.o CMakeFiles/extensions.dir/localworker.cpp.o CMakeFiles/extensions.dir/pidlist.cpp.o CMakeFiles/extensions.dir/iprocessortimer.cpp.o CMakeFiles/extensions.dir/httpextprocessor.cpp.o CMakeFiles/extensions.dir/extrequest.cpp.o CMakeFiles/extensions.dir/extworker.cpp.o CMakeFiles/extensions.dir/extconn.cpp.o CMakeFiles/extensions.dir/extworkerconfig.cpp.o CMakeFiles/extensions.dir/l4conn.cpp.o
+/usr/bin/ranlib libextensions.a

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 set( CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-Project(openlitespeed)
+Project(openlitespeed C CXX)
 INCLUDE( ${PROJECT_SOURCE_DIR}/CMakeModules/common.cmake)
 INCLUDE(GNUInstallDirs)
 
@@ -17,15 +17,17 @@ SET(LSQUIC_SERVER_MODE 1)
 
 include_directories( BEFORE  include src/lshpack src/liblsquic/ls-qpack ${PROJECT_SOURCE_DIR}/../thirdparty/include/)
 link_directories( ${PROJECT_SOURCE_DIR}/../thirdparty/lib/)
+# /usr/local/lib/libtensorflow.so
+ #/usr/local/lib//libtensorflow_framework.so)
 
-SET (CMAKE_C_COMPILER         "/usr/bin/clang")
-SET (CMAKE_CXX_COMPILER       "/usr/bin/clang++")
+##############################SET (CMAKE_C_COMPILER         "/usr/bin/clang")
+##############################SET (CMAKE_CXX_COMPILER       "/usr/bin/clang++")
 
 IF (CMAKE_BUILD_TYPE MATCHES "Debug")
     set (ASAN "1")
     set(MY_CMAKE_POOL_FLAG  " -DPOOL_TESTING -DUSE_VALGRIND")
-    add_definitions(-DRUN_TEST)
-    set(libUnitTest  libUnitTest++.a)
+    ##############################add_definitions(-DRUN_TEST)
+    ##############################set(libUnitTest  libUnitTest++.a)
 
 ELSE ()
     set(MY_CMAKE_WARNING_FLAG  " -Wall -Wextra -Wno-unused-parameter ")
@@ -52,7 +54,7 @@ ENDIF(ASAN)
 set(MY_CMAKE_WARNING_FLAG  " -Wall -Wextra -Wno-unused-parameter")
 
 #set(MY_CMAKE_POOL_FLAG  " -DPOOL_TESTING -DUSE_VALGRIND")
-add_definitions(-DPOOL_TESTING)
+##############################add_definitions(-DPOOL_TESTING)
 #add_definitions(-DLS_WORKCREW_DEBUG)
 add_definitions(-D_GLIBCXX_USE_CXX11_ABI=0)
 
@@ -80,9 +82,9 @@ endif()
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/config.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/src/config.h)
 
 SET(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/CMakeModules)
-find_package(ZLIB REQUIRED)
+##############################find_package(ZLIB REQUIRED)
 ##find_package(LibLdap REQUIRED)
-find_package(PCRE REQUIRED)
+##############################find_package(PCRE REQUIRED)
 find_package(EXPAT REQUIRED)
 #find_package(OpenSSL REQUIRED)
 
@@ -108,10 +110,9 @@ set(MMDB_LIB  maxminddb)
 add_definitions(-DENABLE_IPTOGEO2)
 ##########################################################################################
 
-
-add_definitions(-DTEST_OUTPUT_PLAIN_CONF)
+##############################add_definitions(-DTEST_OUTPUT_PLAIN_CONF)
 #add_definitions(-DLS_VG_DEBUG)
-add_definitions(-DDEBUG_POOL)
+##############################add_definitions(-DDEBUG_POOL)
 add_definitions(-DOPENSSL_NO_CXX)
 
 execute_process( COMMAND getconf LFS_CFLAGS
@@ -121,4 +122,4 @@ add_definitions( ${LFS_CFLAGS} )
 add_definitions(-DUSE_UDNS)
 
 add_subdirectory(src)
-add_subdirectory(test)
+##############################add_subdirectory(test)

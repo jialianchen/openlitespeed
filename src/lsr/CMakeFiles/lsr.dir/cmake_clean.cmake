@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/lsr.dir/ls_aho.c.o"
+  "CMakeFiles/lsr.dir/ls_base64.c.o"
+  "CMakeFiles/lsr.dir/ls_buf.c.o"
+  "CMakeFiles/lsr.dir/ls_confparser.c.o"
+  "CMakeFiles/lsr.dir/ls_crc64.c.o"
+  "CMakeFiles/lsr.dir/ls_dlinkq.c.o"
+  "CMakeFiles/lsr.dir/ls_fileio.c.o"
+  "CMakeFiles/lsr.dir/ls_hash.c.o"
+  "CMakeFiles/lsr.dir/ls_lfqueue.c.o"
+  "CMakeFiles/lsr.dir/ls_lfstack.c.o"
+  "CMakeFiles/lsr.dir/ls_link.c.o"
+  "CMakeFiles/lsr.dir/ls_lock.c.o"
+  "CMakeFiles/lsr.dir/ls_loopbuf.c.o"
+  "CMakeFiles/lsr.dir/ls_map.c.o"
+  "CMakeFiles/lsr.dir/ls_md5.c.o"
+  "CMakeFiles/lsr.dir/ls_mpscq.c.o"
+  "CMakeFiles/lsr.dir/ls_objarray.c.o"
+  "CMakeFiles/lsr.dir/ls_objpool.c.o"
+  "CMakeFiles/lsr.dir/ls_pcreg.c.o"
+  "CMakeFiles/lsr.dir/ls_pool.c.o"
+  "CMakeFiles/lsr.dir/ls_ptrlist.c.o"
+  "CMakeFiles/lsr.dir/ls_sha1.c.o"
+  "CMakeFiles/lsr.dir/ls_shm.cpp.o"
+  "CMakeFiles/lsr.dir/ls_stack.c.o"
+  "CMakeFiles/lsr.dir/ls_str.c.o"
+  "CMakeFiles/lsr.dir/ls_strlist.c.o"
+  "CMakeFiles/lsr.dir/ls_strtool.c.o"
+  "CMakeFiles/lsr.dir/ls_time.c.o"
+  "CMakeFiles/lsr.dir/ls_tsstack.c.o"
+  "CMakeFiles/lsr.dir/ls_xpool.c.o"
+  "CMakeFiles/lsr.dir/xxhash.c.o"
+  "liblsr.a"
+  "liblsr.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/lsr.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

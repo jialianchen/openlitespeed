@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblog4cxx.a  CMakeFiles/log4cxx.dir/appendermanager.cpp.o CMakeFiles/log4cxx.dir/fileappender.cpp.o CMakeFiles/log4cxx.dir/logrotate.cpp.o CMakeFiles/log4cxx.dir/patternlayout.cpp.o CMakeFiles/log4cxx.dir/loggingevent.cpp.o CMakeFiles/log4cxx.dir/ilog.cpp.o CMakeFiles/log4cxx.dir/bench.cpp.o CMakeFiles/log4cxx.dir/layout.cpp.o CMakeFiles/log4cxx.dir/appender.cpp.o CMakeFiles/log4cxx.dir/logger.cpp.o CMakeFiles/log4cxx.dir/level.cpp.o CMakeFiles/log4cxx.dir/logsession.cpp.o CMakeFiles/log4cxx.dir/tmplogid.cpp.o
+/usr/bin/ranlib liblog4cxx.a

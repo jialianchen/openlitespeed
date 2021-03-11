@@ -1,0 +1,2 @@
+/usr/bin/ar qc libquic.a  CMakeFiles/quic.dir/quicshm.cpp.o CMakeFiles/quic.dir/udplistener.cpp.o CMakeFiles/quic.dir/quicengine.cpp.o CMakeFiles/quic.dir/quicstream.cpp.o CMakeFiles/quic.dir/pbset.cpp.o
+/usr/bin/ranlib libquic.a

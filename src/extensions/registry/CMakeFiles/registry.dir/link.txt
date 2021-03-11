@@ -1,0 +1,2 @@
+/usr/bin/ar qc libregistry.a  CMakeFiles/registry.dir/appconfig.cpp.o CMakeFiles/registry.dir/extappregistry.cpp.o
+/usr/bin/ranlib libregistry.a

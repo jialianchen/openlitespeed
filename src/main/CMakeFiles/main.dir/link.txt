@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmain.a  CMakeFiles/main.dir/mainserverconfig.cpp.o CMakeFiles/main.dir/lshttpdmain.cpp.o CMakeFiles/main.dir/serverinfo.cpp.o CMakeFiles/main.dir/httpconfigloader.cpp.o CMakeFiles/main.dir/httpserver.cpp.o CMakeFiles/main.dir/plainconf.cpp.o CMakeFiles/main.dir/configctx.cpp.o CMakeFiles/main.dir/zconfclient.cpp.o CMakeFiles/main.dir/zconfmanager.cpp.o CMakeFiles/main.dir/__/sslpp/sslcontextconfig.cpp.o
+/usr/bin/ranlib libmain.a

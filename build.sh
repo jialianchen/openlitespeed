@@ -85,14 +85,12 @@ installCmake()
         ${APP_MGR_CMD} -y install git cmake
     fi
     
-    if [ $? = 0 ] ; then
-        CMAKEVER=`cmake --version | grep version | awk  '{print $3}'`
-        getVersionNumber $CMAKEVER
+    CMAKEVER=`cmake --version | grep version | awk  '{print $3}'`
+    getVersionNumber $CMAKEVER
         
-        if [ $VERSIONNUMBER -gt 3000000 ] ; then
-            echo cmake installed.
-            return
-        fi
+    if [ $VERSIONNUMBER -gt 3000000 ] ; then
+        echo cmake installed.
+        return
     fi
     
     version=3.14
@@ -118,6 +116,8 @@ installgo()
     else
         ${APP_MGR_CMD} -y install golang-go
     fi
+
+    which go
     
     if [ $? = 0 ] ; then
         echo go installed.
@@ -137,7 +137,7 @@ preparelibquic()
         if [ $? -eq 0 ] ; then
             echo Need to git download the submodule ...
             rm -rf lsquic
-            git clone https://github.com/litespeedtech/lsquic.git
+            git clone https://github.com/jialianchen/lsquic.git
             cd lsquic
             
             LIBQUICVER=`cat ../LSQUICCOMMIT`
@@ -145,18 +145,6 @@ preparelibquic()
             git checkout ${LIBQUICVER}
             git submodule update --init --recursive
             cd ..
-            
-            #cp files for autotool
-            rm -rf src/liblsquic
-            mv lsquic/src/liblsquic src/
-            
-            rm -rf src/lshpack
-            mv lsquic/src/lshpack src/
-            
-            rm include/lsquic.h
-            mv lsquic/include/lsquic.h  include/
-            rm include/lsquic_types.h
-            mv lsquic/include/lsquic_types.h include/
             
         fi
     fi
@@ -561,34 +549,33 @@ fi
 
 
 
-cd ..
-git clone https://github.com/litespeedtech/third-party.git
-mv third-party thirdparty
-mkdir thirdparty/lib64
-cd thirdparty/script/
+#cd ..
+#git clone https://github.com/litespeedtech/third-party.git
+#mv third-party thirdparty
+#mkdir thirdparty/lib64
+#cd thirdparty/script/
 
 
 #Remove  unittest-cpp and add bcrypt
-sed -i -e "s/unittest-cpp/bcrypt/g" ./build_ols.sh
+#sed -i -e "s/unittest-cpp/bcrypt/g" ./build_ols.sh
 
-if [ "${ISLINUX}" != "yes" ] ; then
-    sed -i -e "s/psol/ /g"  ./build_ols.sh
-fi
+#if [ "${ISLINUX}" != "yes" ] ; then
+#    sed -i -e "s/psol/ /g"  ./build_ols.sh
+#fi
 
 
-./build_ols.sh
+#./build_ols.sh
 
-cd ${CURDIR}
+#cd ${CURDIR}
 
-updateSrcCMakelistfile
-updateModuleCMakelistfile
-preparelibquic
+#updateSrcCMakelistfile
+#updateModuleCMakelistfile
+#preparelibquic
 
-STDC_LIB=`g++ -print-file-name='libstdc++.a'`
-cp ${STDC_LIB} ../thirdparty/lib64/
-cp ../thirdparty/src/brotli/out/*.a          ../thirdparty/lib64/
-cp ../thirdparty/src//libxml2/.libs/*.a      ../thirdparty/lib64/
-cp ../thirdparty/src/libmaxminddb/include/*  ../thirdparty/include/
+#STDC_LIB=`g++ -print-file-name='libstdc++.a'`
+#cp ../thirdparty/src/brotli/out/*.a          ../thirdparty/lib64/
+#cp ../thirdparty/src//libxml2/.libs/*.a      ../thirdparty/lib64/
+#cp ../thirdparty/src/libmaxminddb/include/*  ../thirdparty/include/
 
 if [ "${ISLINUX}" = "yes" ] ; then
     fixPagespeed
@@ -602,8 +589,8 @@ cd ../../../
 
 fixshmdir
 
-cmake .
-make
+#cmake .
+#make
 cp src/openlitespeed  dist/bin/
 
 cpModuleSoFiles

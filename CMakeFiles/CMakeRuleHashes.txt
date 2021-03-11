@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+fc5fab6269cac24d4a896b8db8dfb4c8 src/liblsquic/lsquic_versions_to_string.c
